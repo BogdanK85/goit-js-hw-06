@@ -13,4 +13,5 @@ function onChangeColorClick(event) {
   const diferentColor = getRandomHexColor()
   document.body.style.backgroundColor = diferentColor
 }
+
 //btnChangeColor.insertAdjacentHTML('beforeend', colorElem)
