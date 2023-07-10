@@ -9,6 +9,7 @@ function onSubmit(event) {
     
     if (userEmail.value === "" || userPassword.value === "") {
         alert("Усі поля повинні бути заповнені!")
+        return;
     }
 
     const dataLogin = {
